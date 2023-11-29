@@ -41,7 +41,6 @@ const UploadStack = () => {
   return (
     <Stack.Navigator>
       <Stack.Screen name="Upload" component={VideoUploadComponent} />
-      //<Stack.Screen name = "Record" component={Record} />
     </Stack.Navigator>
   )
 }
@@ -49,9 +48,9 @@ const UploadStack = () => {
 const VideoStack = () => {
   return (
     <Stack.Navigator>
-      //<Stack.Screen name="Viewing" component={Viewing} />
-      //<Stack.Screen name="Loading" component={Loading} />
-      //<Stack.Screen name = "VideoBreakdown" component={VideoBreakdown} />
+      /*<Stack.Screen name="Viewing" component={Viewing} />
+      <Stack.Screen name="Loading" component={Loading} />
+      <Stack.Screen name = "VideoBreakdown" component={VideoBreakdown} />*/
       <Stack.Screen name = "VideoBreakdown" component= {VideoComponent} />
     </Stack.Navigator>
   )

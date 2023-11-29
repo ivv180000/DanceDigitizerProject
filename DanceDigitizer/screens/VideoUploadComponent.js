@@ -53,7 +53,7 @@ const VideoUploadComponent = () => {
       if (!result.canceled) {
         selectedVideoUri = result.uri;
       } else {
-        selectedVideoUri = "/Users/veerenpatel/Desktop/DanceDigitizerProject/DanceDigitizer/assets/sample3.mp4";
+        selectedVideoUri = "/Users/ellianabrown/bigOof/DanceDigitizerProject/DanceDigitizer/assets/sample3.mp4";
       }
       
       
@@ -61,7 +61,7 @@ const VideoUploadComponent = () => {
     } catch (err) {
       console.error('Error selecting/uploading video:', err);
     }
-    setSelectedVideo(require("/Users/veerenpatel/Desktop/DanceDigitizerProject/DanceDigitizer/assets/sample3.mp4"))
+    setSelectedVideo(require("/Users/ellianabrown/bigOof/DanceDigitizerProject/DanceDigitizer/assets/sample3.mp4"))
 
   };
 
@@ -71,7 +71,7 @@ const VideoUploadComponent = () => {
       const formData = new FormData();
       console.log(videoUri)
       formData.append('video', {
-        uri: "/Users/veerenpatel/Desktop/DanceDigitizerProject/DanceDigitizer/assets/sample3.mp4",
+        uri: "/Users/ellianabrown/bigOof/DanceDigitizerProject/DanceDigitizer/assets/sample3.mp4",
         type: 'video/mp4',
         name: 'test.mp4',
       });
